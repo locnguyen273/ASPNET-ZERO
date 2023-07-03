@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\training\\ASPNET-ZERO\\backend\\api\\API.csproj": {}
+    "D:\\training\\Dating-App\\backend\\api\\API.csproj": {}
   },
   "projects": {
-    "D:\\training\\ASPNET-ZERO\\backend\\api\\API.csproj": {
+    "D:\\training\\Dating-App\\backend\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\training\\ASPNET-ZERO\\backend\\api\\API.csproj",
+        "projectUniqueName": "D:\\training\\Dating-App\\backend\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\training\\ASPNET-ZERO\\backend\\api\\API.csproj",
-        "packagesPath": "C:\\Users\\tanlo\\.nuget\\packages\\",
-        "outputPath": "D:\\training\\ASPNET-ZERO\\backend\\api\\obj\\",
+        "projectPath": "D:\\training\\Dating-App\\backend\\api\\API.csproj",
+        "packagesPath": "C:\\Users\\Loc Nguyen\\.nuget\\packages\\",
+        "outputPath": "D:\\training\\Dating-App\\backend\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tanlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Loc Nguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.305\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -42,6 +41,16 @@
           "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[7.0.8, )"
             },
@@ -69,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
