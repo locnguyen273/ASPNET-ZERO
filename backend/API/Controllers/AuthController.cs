@@ -36,7 +36,7 @@ namespace API.Controllers
       return new UserDTO
       {
         UserName = user.UserName,
-        // Token = _tokenService.CreateToken(user)
+        Token = _tokenService.CreateToken(user)
       };
     }
 
