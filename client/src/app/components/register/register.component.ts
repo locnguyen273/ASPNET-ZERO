@@ -20,9 +20,7 @@ export class RegisterComponent implements OnInit {
 
   register() {
     this.accountService.register(this.model).subscribe({
-      next: () => {
-        this.cancel();
-      },
+      next: () => this.cancel(),
       error: error => this.toastr.error(error.error)
     })
   }
@@ -30,5 +28,4 @@ export class RegisterComponent implements OnInit {
   cancel() {
     this.cancelRegister.emit(false);
   }
-
 }
