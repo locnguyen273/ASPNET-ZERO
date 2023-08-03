@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { HttpClientModule } from '@angular/common/http';
+import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -13,6 +13,10 @@ import { MemberDetailComponent } from './pages/members/member-detail/member-deta
 import { MessagesComponent } from './pages/messages/messages.component';
 import { ListsComponent } from './pages/lists/lists.component';
 import { SharedModule } from './modules/shared.module';
+import { TestErrorComponent } from './components/test-error/test-error.component';
+import { ErrorInterceptor } from './interceptors/error.interceptor';
+import { ServerErrorComponent } from './components/server-error/server-error.component';
+import { NotFoundComponent } from './components/not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +27,10 @@ import { SharedModule } from './modules/shared.module';
     MemberListComponent,
     MemberDetailComponent,
     MessagesComponent,
-    ListsComponent
+    ListsComponent,
+    TestErrorComponent,
+    ServerErrorComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
@@ -33,7 +40,9 @@ import { SharedModule } from './modules/shared.module';
     FormsModule,
     SharedModule
   ],
-  providers: [],
+  providers: [
+    {provide: HTTP_INTERCEPTORS, useClass: ErrorInterceptor, multi: true}
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

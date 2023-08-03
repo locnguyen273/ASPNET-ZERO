@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\training\\Dating-App\\backend\\API\\API.csproj": {}
+    "D:\\Training\\Dating-App\\backend\\API\\API.csproj": {}
   },
   "projects": {
-    "D:\\training\\Dating-App\\backend\\API\\API.csproj": {
+    "D:\\Training\\Dating-App\\backend\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\training\\Dating-App\\backend\\API\\API.csproj",
+        "projectUniqueName": "D:\\Training\\Dating-App\\backend\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\training\\Dating-App\\backend\\API\\API.csproj",
+        "projectPath": "D:\\Training\\Dating-App\\backend\\API\\API.csproj",
         "packagesPath": "C:\\Users\\tanlo\\.nuget\\packages\\",
-        "outputPath": "D:\\training\\Dating-App\\backend\\API\\obj\\",
+        "outputPath": "D:\\Training\\Dating-App\\backend\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tanlo\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -58,6 +58,12 @@
               "version": "[7.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.8, )"
             },

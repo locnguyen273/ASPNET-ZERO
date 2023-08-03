@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZINmZhMGieEo7ysiBrkdLVvmkpwEkyF7AY0E+c/H1jG47uvokbtTG36qt/6uXpUrFjf9oTnJVwN7QoX8V3VbLw==",
+  "dgSpecHash": "rmN9WkDw3WHjV3YSf0qKj7YWH65LI1wX+l3x+6Rdq0IvVV7ptq+JIlXb+9bGATHGBpOKeFw/rGK/wPP0mFxpFg==",
   "success": true,
-  "projectFilePath": "D:\\training\\Dating-App\\backend\\API\\API.csproj",
+  "projectFilePath": "D:\\Training\\Dating-App\\backend\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tanlo\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\tanlo\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.8\\microsoft.aspnetcore.authentication.jwtbearer.7.0.8.nupkg.sha512",
@@ -16,6 +16,7 @@
     "C:\\Users\\tanlo\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.8\\microsoft.entityframeworkcore.relational.7.0.8.nupkg.sha512",
     "C:\\Users\\tanlo\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\7.0.8\\microsoft.entityframeworkcore.sqlite.7.0.8.nupkg.sha512",
     "C:\\Users\\tanlo\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\7.0.8\\microsoft.entityframeworkcore.sqlite.core.7.0.8.nupkg.sha512",
+    "C:\\Users\\tanlo\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\7.0.8\\microsoft.entityframeworkcore.tools.7.0.8.nupkg.sha512",
     "C:\\Users\\tanlo\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\tanlo\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\tanlo\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
