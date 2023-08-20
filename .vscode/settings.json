@@ -1,3 +1,7 @@
 {
-  "dotnet.defaultSolution": "backend/backend.sln"
+  "dotnet.defaultSolution": "backend/backend.sln",
+  "cSpell.words": [
+    "toastr",
+    "Unauthorised"
+  ]
 }
